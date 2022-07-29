@@ -1,0 +1,55 @@
+body {
+  background-image: url(bg.png);
+}
+
+header {
+  text-align: center;
+  color: whitesmoke;
+}
+
+div {
+  color: red;
+  background-color: cyan;
+  text-align: justify;
+  padding: 15px;
+  margin: 10px;
+  /* padding: 10px; */
+  margin: auto;
+}
+
+.satu {
+  width: 210px;
+  height: 430px;
+  background-color: chartreuse;
+}
+
+.dua {
+  width: 210px;
+  height: 430px;
+  background-color: navajowhite;
+}
+
+.tiga {
+  width: 210px;
+  height: 430px;
+  background-color: rgb(79, 191, 243);
+}
+
+.empat {
+  width: 210px;
+  height: 430px;
+  background-color: burlywood;
+}
+/* main {
+  display: flex;
+} */
+
+@media screen and (min-width: 900px) {
+  main {
+    display: flex;
+  }
+}
+
+footer {
+  color: white;
+}
